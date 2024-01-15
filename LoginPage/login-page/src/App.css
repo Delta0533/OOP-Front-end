@@ -28,34 +28,42 @@
   font-size: 40px;
   font-weight: 700;
   position: relative;
-  left: 250px;
+  left: 223px;
   height: 53px;
   /* color: white; */
 }
 
-.wrapper .mainlogo {
-  position: absolute;
-  top: 120px;
-  left: 110px;
-  font-size: 100px;
+.boxlogo {
+  /* background-color: #fff; */
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 155px;
+  left: 50px;
   animation-name: UpandDown;
   animation-duration: 2700ms;
   animation-iteration-count: infinite;
   animation-delay: 0s;
 }
 
+.boxlogo .mainlogo {
+  font-size: 100px;
+}
+
 @keyframes UpandDown {
   0% {
-    top: 120px;
-    left: 110px;
+    top: 155px;
+    left: 50px;
   }
   50% {
-    top: 100px;
-    left: 110px;
+    top: 135px;
+    left: 50px;
   }
   100% {
-    top: 120px;
-    left: 110px;
+    top: 155px;
+    left: 50px;
   }
 }
 

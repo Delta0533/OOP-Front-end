@@ -12,9 +12,11 @@ function App() {
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
+        <div className='boxlogo'>
+          <div className='mainlogo'><GiBookmarklet /></div>
+        </div>
         <div className='loginlogo'>Login<LuLogIn /></div>
         <form action="">
-          <div className='mainlogo'><GiBookmarklet /></div>
           <h1>Code4Dad</h1>
           <div className='input-box'>
               <input type="text" placeholder='Username' required/>
