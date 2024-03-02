@@ -7,8 +7,8 @@ function Dropdown() {
         <div className='dropdown'>
             <button>Course type</button>
             <div className='content'>
-                <a href=''>วิชาภาค</a>
-                <a href=''>วิชาเลือก</a>
+                <a href=''>Curriculum</a>
+                <a href=''>Faculty</a>
                 <a href=''>Gen-Ed</a>
             </div>
         </div>
